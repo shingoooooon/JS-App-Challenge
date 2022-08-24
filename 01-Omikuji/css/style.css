@@ -1,0 +1,27 @@
+body {
+  background: gray;
+}
+
+#btn {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  background: red;
+  border-radius: 50%;
+  margin:30px auto;
+  text-align: center;
+  line-height: 200px;
+  box-shadow:0 10px 0 orange;
+  cursor: pointer;
+  user-select: none;
+}
+
+#btn:hover{
+  opacity: 0.8;
+}
+
+#btn:active{
+  transform: translateY(4px);
+  box-shadow:0 5px 0 orange;
+}
