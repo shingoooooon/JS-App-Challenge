@@ -1,0 +1,15 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+  margin: 100px auto;
+}
+
+th, td {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
