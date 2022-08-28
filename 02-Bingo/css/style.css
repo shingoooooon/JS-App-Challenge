@@ -13,3 +13,12 @@ th, td {
   text-align: center;
   line-height: 50px;
 }
+
+td:hover {
+  background: red;
+  cursor: pointer;
+}
+
+.clicked {
+  background: red;
+}

@@ -49,3 +49,15 @@ function renderBingo(bingo) {
 const columns = createColumns();
 const bingo = createBingo(columns);
 renderBingo(bingo);
+
+const tds = document.querySelectorAll('td');
+
+function click() {
+  if(this.className.match('clicked')){
+    this.classList.remove('clicked');
+  } else{
+    this.classList.add('clicked');
+  }
+};
+
+tds.forEach(td => td.addEventListener('click', click));
